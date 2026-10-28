@@ -1,0 +1,23 @@
+# datos crudos (711 MB) y descargas
+LD2011_2014.txt
+*.zip
+electricity.zip
+data/*
+!data/.gitkeep
+!data/clientes.json
+
+# python / jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+venv*/
+.DS_Store
+
+# checkpoints de modelos y logs pesados
+*.pt
+*.pth
+lightning_logs/
+checkpoints/
+
+PLAN_TAREAS.md
