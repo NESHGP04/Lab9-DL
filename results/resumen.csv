@@ -1,0 +1,4 @@
+modelo,familia,L_horas,estrategia,covariables,params_totales,params_entrenables,t_entrenamiento_s,t_inferencia_s,hardware,config
+naive,Baseline,1344.0,"local, reajuste por origen",no,0.0,0.0,0.0,0.9,Apple M5,último valor
+snaive_24h,Baseline,1344.0,"local, reajuste por origen",no,0.0,0.0,0.0,0.9,Apple M5,mismo horario del día anterior
+snaive_168h,Baseline,1344.0,"local, reajuste por origen",no,0.0,0.0,0.0,0.9,Apple M5,mismo horario de la semana anterior
