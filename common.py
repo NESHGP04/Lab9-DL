@@ -76,7 +76,8 @@ class ForecastModel:
 
 def save_preds(df: pd.DataFrame, modelo: str) -> Path:
     """Guarda predicciones validando el esquema acordado."""
-    df = df.assign(modelo=modelo)[PRED_COLS]
+    extra = [c for c in df.columns if c.startswith("q") and c[1:].isdigit()]   # cuantiles de modelos probabilísticos: q10, q50, q90...
+    df = df.assign(modelo=modelo)[PRED_COLS + extra]
     n_cli, n_orig = df["unique_id"].nunique(), len(test_origins())
     assert len(df) == n_cli * n_orig * H, f"se esperaban {n_cli*n_orig*H} filas, hay {len(df)}"
     assert df["y_hat"].notna().all(), "y_hat con NaN"
