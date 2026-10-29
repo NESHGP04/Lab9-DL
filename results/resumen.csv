@@ -19,3 +19,5 @@ dlinear_hist30m,Lineal,336,multi-salida,no,16176.0,16176.0,9.2,0.8,Apple M5 (GPU
 nlinear_hist03m,Lineal,336,multi-salida,no,8088.0,8088.0,2.5,0.8,Apple M5 (GPU MPS),"L=336, 22 épocas, Adam lr=1e-3, L1",0.1,1119.0,3.0
 nlinear_hist12m,Lineal,336,multi-salida,no,8088.0,8088.0,3.4,0.7,Apple M5 (GPU MPS),"L=336, 6 épocas, Adam lr=1e-3, L1",0.6,1131.0,12.0
 nlinear_hist30m,Lineal,336,multi-salida,no,8088.0,8088.0,5.4,0.9,Apple M5 (GPU MPS),"L=336, 3 épocas, Adam lr=1e-3, L1",1.8,1153.0,30.0
+mlp_reentreno,MLP,336,"multi-salida, reentreno mensual",sí,,,205.5,0.3,Apple M5,"L=336, 9 épocas por reentreno, desde cero",,,
+lightgbm_global_reentreno,Árboles,,"directa global, reentreno mensual",sí (calendario),,,94.0,4.5,Apple M5,"l1_h63, 2000 árboles por reentreno (t_entrenamiento_s = último de 3 reentrenos)",,,

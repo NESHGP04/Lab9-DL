@@ -126,7 +126,8 @@ class WindowDataset(Dataset):
     """
 
     def __init__(self, wide_norm: pd.DataFrame, split: str, L: int = C.L_DEFAULT, H: int = C.H,
-                 stride: int = 1, return_future: bool = False, train_start: pd.Timestamp | None = None):
+                 stride: int = 1, return_future: bool = False, train_start: pd.Timestamp | None = None,
+                 train_end: pd.Timestamp | None = None):
         self.L, self.H, self.return_future = L, H, return_future
         self.ds = wide_norm.index
         self.series = wide_norm.columns.tolist()
@@ -134,7 +135,7 @@ class WindowDataset(Dataset):
         self.cal = torch.tensor(calendar_features(self.ds).to_numpy(dtype=np.float32))  # (T, F)
 
         lo, hi = {"train": (train_start or C.PERIOD_START, C.TRAIN_END),
-                  "trainval": (train_start or C.PERIOD_START, C.VAL_END),   # entrenamiento final (datos hasta 2014-09-30)
+                  "trainval": (train_start or C.PERIOD_START, train_end or C.VAL_END),   # entrenamiento final (datos hasta 2014-09-30)
                   "val": (C.VAL_START, C.VAL_END),
                   "test": (C.TEST_START, C.TEST_END)}[split]
         t_lo, t_hi = self.ds.get_loc(lo), self.ds.get_loc(hi)

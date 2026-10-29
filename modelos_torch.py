@@ -74,8 +74,9 @@ class Windows:
     """Mismas ventanas que datos.WindowDataset, pero indexadas en bloque sobre tensores en `device`
     (evita el __getitem__ de Python: ~2 M de ventanas por época)."""
 
-    def __init__(self, wn: pd.DataFrame, split: str, L: int, train_start: pd.Timestamp | None = None):
-        ds = D.WindowDataset(wn, split, L, C.H, train_start=train_start)
+    def __init__(self, wn: pd.DataFrame, split: str, L: int, train_start: pd.Timestamp | None = None,
+                 train_end: pd.Timestamp | None = None):
+        ds = D.WindowDataset(wn, split, L, C.H, train_start=train_start, train_end=train_end)
         self.L, self.n_series, self.series = L, ds.n_series, ds.series
         self.values, self.cal = ds.values.to(DEVICE), ds.cal.to(DEVICE)
         self.starts = torch.tensor(ds.starts, device=DEVICE)
@@ -110,7 +111,8 @@ def evaluate_windows(net, win: Windows, scaler: D.SeriesScaler, mase_scale: pd.S
 
 
 def fit_torch(net, wn: pd.DataFrame, scaler: D.SeriesScaler, mase_scale: pd.Series, L: int, *,
-              split: str = "train", train_start: pd.Timestamp | None = None, max_epochs: int = 30,
+              split: str = "train", train_start: pd.Timestamp | None = None,
+              train_end: pd.Timestamp | None = None, max_epochs: int = 30,
               fixed_epochs: int | None = None, patience: int = 4, bs: int = 1024, lr: float = 1e-3,
               weight_decay: float = 0.0, seed: int = C.SEED, verbose: bool = True) -> dict:
     """Entrena con L1 (la métrica es MAE/MASE). Con split="train" valida en cada época y restaura la mejor
@@ -119,7 +121,7 @@ def fit_torch(net, wn: pd.DataFrame, scaler: D.SeriesScaler, mase_scale: pd.Seri
     torch.manual_seed(seed)
     np.random.seed(seed)
     net.to(DEVICE)
-    tr = Windows(wn, split, L, train_start)
+    tr = Windows(wn, split, L, train_start, train_end)
     va = Windows(wn, "val", L) if split == "train" else None
     opt = torch.optim.Adam(net.parameters(), lr=lr, weight_decay=weight_decay)
     n_epochs = fixed_epochs or max_epochs
@@ -187,3 +189,27 @@ class TorchForecaster(C.ForecastModel):
         self.infer_time += time.time() - t0
         return pd.DataFrame({"unique_id": np.repeat(self.series, C.H), "ds": np.tile(ds, len(self.series)),
                              "y_hat": np.clip(y.reshape(-1), 0, None)})
+
+
+class RetrainableTorch(C.ForecastModel):
+    """Reentrenamiento con ventana expansiva (backtest(..., retrain="monthly")): en cada fit(history) crea la red desde
+    cero y la entrena `epochs` épocas con todas las ventanas cuyo objetivo cae antes del origen. El escalador no cambia
+    (estadísticos de entrenamiento), para aislar el efecto de reentrenar los pesos."""
+
+    def __init__(self, name: str, arch: str, L: int, epochs: int, wn: pd.DataFrame, scaler: D.SeriesScaler,
+                 mase_scale: pd.Series, series: list[str], **kw):
+        self.name, self.arch, self.L, self.epochs, self.kw = name, arch, L, epochs, kw
+        self.wn, self.scaler, self.mase_scale, self.series = wn, scaler, mase_scale, series
+        self.fit_times, self.fit_ends, self.inner = [], [], None
+
+    def fit(self, train: pd.DataFrame) -> "RetrainableTorch":
+        end = train["ds"].max()
+        net = build(self.arch, self.L, **self.kw)
+        r = fit_torch(net, self.wn, self.scaler, self.mase_scale, self.L, split="trainval", train_end=end,
+                      fixed_epochs=self.epochs, verbose=False)
+        self.fit_times.append(r["t_total_s"]); self.fit_ends.append(end)
+        self.inner = TorchForecaster(self.name, net, self.scaler, self.L, self.series)
+        return self
+
+    def predict(self, history: pd.DataFrame, origin: pd.Timestamp) -> pd.DataFrame:
+        return self.inner.predict(history, origin)
