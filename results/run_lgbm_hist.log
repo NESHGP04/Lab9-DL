@@ -1,0 +1,7 @@
+mejor: l1_h63 2000
+lightgbm_global_hist03m árboles elegidos en validación: 412
+lightgbm_global_hist03m entreno 10s, backtest 8s
+lightgbm_global_hist12m árboles elegidos en validación: 1974
+lightgbm_global_hist12m entreno 73s, backtest 12s
+lightgbm_global_hist30m árboles elegidos en validación: 2000
+lightgbm_global_hist30m entreno 75s, backtest 10s

@@ -1,0 +1,119 @@
+== mlp L=48 params=386072
+{'epoca': 1, 'train_loss': 0.2506, 'val_loss': 0.2285, 'val_MAE': 37.4349, 'val_MASE': 0.9119, 'mem_gpu_MB': 1124.1406, 't_epoca_s': 16.309}
+{'epoca': 2, 'train_loss': 0.2344, 'val_loss': 0.2242, 'val_MAE': 36.8856, 'val_MASE': 0.9027, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 14.2682}
+{'epoca': 3, 'train_loss': 0.2297, 'val_loss': 0.2228, 'val_MAE': 36.9116, 'val_MASE': 0.9022, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 14.3909}
+{'epoca': 4, 'train_loss': 0.2272, 'val_loss': 0.2201, 'val_MAE': 36.4254, 'val_MASE': 0.892, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 13.7514}
+{'epoca': 5, 'train_loss': 0.2255, 'val_loss': 0.2182, 'val_MAE': 36.1443, 'val_MASE': 0.8823, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 13.6102}
+{'epoca': 6, 'train_loss': 0.2242, 'val_loss': 0.217, 'val_MAE': 35.9545, 'val_MASE': 0.8808, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 16.1803}
+{'epoca': 7, 'train_loss': 0.2232, 'val_loss': 0.2166, 'val_MAE': 35.8653, 'val_MASE': 0.8793, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 14.9787}
+{'epoca': 8, 'train_loss': 0.2226, 'val_loss': 0.216, 'val_MAE': 35.7258, 'val_MASE': 0.8773, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 13.7511}
+{'epoca': 9, 'train_loss': 0.222, 'val_loss': 0.216, 'val_MAE': 35.8243, 'val_MASE': 0.8772, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 13.9059}
+{'epoca': 10, 'train_loss': 0.2214, 'val_loss': 0.2159, 'val_MAE': 35.53, 'val_MASE': 0.8772, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 13.221}
+{'epoca': 11, 'train_loss': 0.221, 'val_loss': 0.2161, 'val_MAE': 35.9512, 'val_MASE': 0.8817, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 13.5389}
+{'epoca': 12, 'train_loss': 0.2206, 'val_loss': 0.2145, 'val_MAE': 35.6293, 'val_MASE': 0.8718, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 13.7065}
+{'epoca': 13, 'train_loss': 0.2202, 'val_loss': 0.2147, 'val_MAE': 35.6428, 'val_MASE': 0.8747, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 16.4774}
+{'epoca': 14, 'train_loss': 0.2199, 'val_loss': 0.2147, 'val_MAE': 35.5765, 'val_MASE': 0.874, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 14.76}
+{'epoca': 15, 'train_loss': 0.2196, 'val_loss': 0.2141, 'val_MAE': 35.557, 'val_MASE': 0.8731, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 14.3102}
+{'epoca': 16, 'train_loss': 0.2194, 'val_loss': 0.2148, 'val_MAE': 35.7841, 'val_MASE': 0.8761, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 14.4929}
+{'epoca': 17, 'train_loss': 0.2191, 'val_loss': 0.215, 'val_MAE': 35.6206, 'val_MASE': 0.876, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 14.6752}
+{'epoca': 18, 'train_loss': 0.2189, 'val_loss': 0.2145, 'val_MAE': 35.6272, 'val_MASE': 0.8757, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 14.4086}
+{'epoca': 19, 'train_loss': 0.2187, 'val_loss': 0.2135, 'val_MAE': 35.4177, 'val_MASE': 0.8705, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 14.1906}
+{'epoca': 20, 'train_loss': 0.2185, 'val_loss': 0.2136, 'val_MAE': 35.3792, 'val_MASE': 0.8713, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 12.9993}
+{'epoca': 21, 'train_loss': 0.2183, 'val_loss': 0.213, 'val_MAE': 35.2751, 'val_MASE': 0.8682, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 13.6011}
+{'epoca': 22, 'train_loss': 0.2182, 'val_loss': 0.2137, 'val_MAE': 35.3848, 'val_MASE': 0.8728, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 14.4904}
+{'epoca': 23, 'train_loss': 0.218, 'val_loss': 0.2139, 'val_MAE': 35.5004, 'val_MASE': 0.8725, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 15.0476}
+{'epoca': 24, 'train_loss': 0.2179, 'val_loss': 0.2135, 'val_MAE': 35.2923, 'val_MASE': 0.8711, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 15.7909}
+{'epoca': 25, 'train_loss': 0.2177, 'val_loss': 0.2134, 'val_MAE': 35.3534, 'val_MASE': 0.8703, 'mem_gpu_MB': 1132.1406, 't_epoca_s': 14.4638}
+== mlp L=168 params=447512
+{'epoca': 1, 'train_loss': 0.2231, 'val_loss': 0.2043, 'val_MAE': 33.9835, 'val_MASE': 0.8396, 'mem_gpu_MB': 1158.9844, 't_epoca_s': 17.5546}
+{'epoca': 2, 'train_loss': 0.2103, 'val_loss': 0.2009, 'val_MAE': 33.3344, 'val_MASE': 0.8256, 'mem_gpu_MB': 1158.9844, 't_epoca_s': 14.6827}
+{'epoca': 3, 'train_loss': 0.2075, 'val_loss': 0.1999, 'val_MAE': 33.3578, 'val_MASE': 0.8237, 'mem_gpu_MB': 1158.9844, 't_epoca_s': 14.4296}
+{'epoca': 4, 'train_loss': 0.2059, 'val_loss': 0.1964, 'val_MAE': 32.4642, 'val_MASE': 0.8054, 'mem_gpu_MB': 1158.9844, 't_epoca_s': 14.9392}
+{'epoca': 5, 'train_loss': 0.2047, 'val_loss': 0.1966, 'val_MAE': 32.4589, 'val_MASE': 0.808, 'mem_gpu_MB': 1158.9844, 't_epoca_s': 15.4512}
+{'epoca': 6, 'train_loss': 0.2039, 'val_loss': 0.2002, 'val_MAE': 33.7381, 'val_MASE': 0.8278, 'mem_gpu_MB': 1158.9844, 't_epoca_s': 15.9006}
+{'epoca': 7, 'train_loss': 0.2033, 'val_loss': 0.1967, 'val_MAE': 32.7807, 'val_MASE': 0.81, 'mem_gpu_MB': 1158.9844, 't_epoca_s': 17.2439}
+{'epoca': 8, 'train_loss': 0.2027, 'val_loss': 0.1947, 'val_MAE': 32.2292, 'val_MASE': 0.799, 'mem_gpu_MB': 1158.9844, 't_epoca_s': 16.5285}
+{'epoca': 9, 'train_loss': 0.2023, 'val_loss': 0.1954, 'val_MAE': 32.5181, 'val_MASE': 0.8038, 'mem_gpu_MB': 1158.9844, 't_epoca_s': 16.6309}
+{'epoca': 10, 'train_loss': 0.2019, 'val_loss': 0.197, 'val_MAE': 32.9613, 'val_MASE': 0.8132, 'mem_gpu_MB': 1158.9844, 't_epoca_s': 16.2711}
+{'epoca': 11, 'train_loss': 0.2016, 'val_loss': 0.1949, 'val_MAE': 32.1994, 'val_MASE': 0.8021, 'mem_gpu_MB': 1158.9844, 't_epoca_s': 16.6277}
+{'epoca': 12, 'train_loss': 0.2013, 'val_loss': 0.1954, 'val_MAE': 32.4251, 'val_MASE': 0.804, 'mem_gpu_MB': 1158.9844, 't_epoca_s': 16.0016}
+== mlp L=336 params=533528
+{'epoca': 1, 'train_loss': 0.22, 'val_loss': 0.1991, 'val_MAE': 33.1106, 'val_MASE': 0.8211, 'mem_gpu_MB': 1184.6875, 't_epoca_s': 17.5399}
+{'epoca': 2, 'train_loss': 0.2072, 'val_loss': 0.1999, 'val_MAE': 33.3415, 'val_MASE': 0.8264, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 17.1833}
+{'epoca': 3, 'train_loss': 0.2046, 'val_loss': 0.1975, 'val_MAE': 32.9974, 'val_MASE': 0.8168, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 16.7817}
+{'epoca': 4, 'train_loss': 0.2031, 'val_loss': 0.1949, 'val_MAE': 32.3584, 'val_MASE': 0.8051, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 16.8483}
+{'epoca': 5, 'train_loss': 0.2021, 'val_loss': 0.1941, 'val_MAE': 32.2521, 'val_MASE': 0.8014, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 18.0555}
+{'epoca': 6, 'train_loss': 0.2013, 'val_loss': 0.1956, 'val_MAE': 32.869, 'val_MASE': 0.8095, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 17.8756}
+{'epoca': 7, 'train_loss': 0.2008, 'val_loss': 0.1943, 'val_MAE': 32.0889, 'val_MASE': 0.8019, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 16.9996}
+{'epoca': 8, 'train_loss': 0.2004, 'val_loss': 0.1959, 'val_MAE': 32.8435, 'val_MASE': 0.8119, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 17.1942}
+{'epoca': 9, 'train_loss': 0.1999, 'val_loss': 0.1929, 'val_MAE': 32.0231, 'val_MASE': 0.7954, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 16.6046}
+{'epoca': 10, 'train_loss': 0.1996, 'val_loss': 0.1956, 'val_MAE': 32.8398, 'val_MASE': 0.8103, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 17.4478}
+{'epoca': 11, 'train_loss': 0.1993, 'val_loss': 0.1935, 'val_MAE': 32.0819, 'val_MASE': 0.7998, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 16.2268}
+{'epoca': 12, 'train_loss': 0.199, 'val_loss': 0.1942, 'val_MAE': 32.5312, 'val_MASE': 0.8052, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 16.6664}
+{'epoca': 13, 'train_loss': 0.1988, 'val_loss': 0.1937, 'val_MAE': 32.2752, 'val_MASE': 0.8015, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 17.8893}
+== dlinear L=48 params=2352
+{'epoca': 1, 'train_loss': 0.2658, 'val_loss': 0.2374, 'val_MAE': 37.1652, 'val_MASE': 0.9151, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 8.3155}
+{'epoca': 2, 'train_loss': 0.2425, 'val_loss': 0.2372, 'val_MAE': 37.0959, 'val_MASE': 0.9143, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 4.4709}
+{'epoca': 3, 'train_loss': 0.2425, 'val_loss': 0.2371, 'val_MAE': 37.0624, 'val_MASE': 0.9132, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.9939}
+{'epoca': 4, 'train_loss': 0.2425, 'val_loss': 0.2369, 'val_MAE': 37.002, 'val_MASE': 0.9121, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.5504}
+{'epoca': 5, 'train_loss': 0.2425, 'val_loss': 0.2371, 'val_MAE': 37.0593, 'val_MASE': 0.9132, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.6016}
+{'epoca': 6, 'train_loss': 0.2425, 'val_loss': 0.2371, 'val_MAE': 37.0486, 'val_MASE': 0.9131, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.9562}
+{'epoca': 7, 'train_loss': 0.2425, 'val_loss': 0.2372, 'val_MAE': 37.114, 'val_MASE': 0.9145, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 3.9516}
+{'epoca': 8, 'train_loss': 0.2425, 'val_loss': 0.2375, 'val_MAE': 37.1844, 'val_MASE': 0.9156, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.5658}
+== dlinear L=168 params=8112
+{'epoca': 1, 'train_loss': 0.2267, 'val_loss': 0.2107, 'val_MAE': 33.164, 'val_MASE': 0.8355, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 7.5276}
+{'epoca': 2, 'train_loss': 0.2149, 'val_loss': 0.2113, 'val_MAE': 33.2763, 'val_MASE': 0.8391, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.4147}
+{'epoca': 3, 'train_loss': 0.2149, 'val_loss': 0.2106, 'val_MAE': 33.0841, 'val_MASE': 0.8343, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 7.896}
+{'epoca': 4, 'train_loss': 0.2149, 'val_loss': 0.2105, 'val_MAE': 33.0937, 'val_MASE': 0.8348, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 4.6487}
+{'epoca': 5, 'train_loss': 0.2149, 'val_loss': 0.2116, 'val_MAE': 33.441, 'val_MASE': 0.8413, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.7956}
+{'epoca': 6, 'train_loss': 0.2149, 'val_loss': 0.2108, 'val_MAE': 33.1644, 'val_MASE': 0.8369, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 7.0513}
+{'epoca': 7, 'train_loss': 0.2149, 'val_loss': 0.2107, 'val_MAE': 33.1488, 'val_MASE': 0.8358, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 4.537}
+{'epoca': 8, 'train_loss': 0.2149, 'val_loss': 0.2107, 'val_MAE': 33.115, 'val_MASE': 0.8359, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 7.8416}
+== dlinear L=336 params=16176
+{'epoca': 1, 'train_loss': 0.217, 'val_loss': 0.2062, 'val_MAE': 33.4581, 'val_MASE': 0.838, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 6.92}
+{'epoca': 2, 'train_loss': 0.2074, 'val_loss': 0.2041, 'val_MAE': 32.7424, 'val_MASE': 0.8259, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 8.0561}
+{'epoca': 3, 'train_loss': 0.2072, 'val_loss': 0.2038, 'val_MAE': 32.6314, 'val_MASE': 0.8239, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 7.7402}
+{'epoca': 4, 'train_loss': 0.2073, 'val_loss': 0.2044, 'val_MAE': 32.8453, 'val_MASE': 0.8277, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 9.2237}
+{'epoca': 5, 'train_loss': 0.2073, 'val_loss': 0.2039, 'val_MAE': 32.676, 'val_MASE': 0.8244, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 8.689}
+{'epoca': 6, 'train_loss': 0.2073, 'val_loss': 0.2048, 'val_MAE': 32.9437, 'val_MASE': 0.8293, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.8764}
+{'epoca': 7, 'train_loss': 0.2073, 'val_loss': 0.204, 'val_MAE': 32.721, 'val_MASE': 0.8249, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 7.9232}
+== nlinear L=48 params=1176
+{'epoca': 1, 'train_loss': 0.2812, 'val_loss': 0.2386, 'val_MAE': 37.3198, 'val_MASE': 0.9181, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 3.0427}
+{'epoca': 2, 'train_loss': 0.2435, 'val_loss': 0.2376, 'val_MAE': 37.0328, 'val_MASE': 0.9129, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 3.11}
+{'epoca': 3, 'train_loss': 0.2433, 'val_loss': 0.2375, 'val_MAE': 36.9972, 'val_MASE': 0.9125, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 4.069}
+{'epoca': 4, 'train_loss': 0.2433, 'val_loss': 0.2374, 'val_MAE': 36.9719, 'val_MASE': 0.9119, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 3.7935}
+{'epoca': 5, 'train_loss': 0.2433, 'val_loss': 0.2376, 'val_MAE': 37.0248, 'val_MASE': 0.913, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 3.1997}
+{'epoca': 6, 'train_loss': 0.2433, 'val_loss': 0.2376, 'val_MAE': 37.0157, 'val_MASE': 0.9127, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 2.5141}
+{'epoca': 7, 'train_loss': 0.2433, 'val_loss': 0.2375, 'val_MAE': 36.991, 'val_MASE': 0.9123, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 2.8117}
+{'epoca': 8, 'train_loss': 0.2433, 'val_loss': 0.2376, 'val_MAE': 37.0465, 'val_MASE': 0.9133, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 3.0497}
+== nlinear L=168 params=4056
+{'epoca': 1, 'train_loss': 0.2306, 'val_loss': 0.2114, 'val_MAE': 33.251, 'val_MASE': 0.8382, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 4.5147}
+{'epoca': 2, 'train_loss': 0.215, 'val_loss': 0.2106, 'val_MAE': 33.0617, 'val_MASE': 0.8347, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 4.2545}
+{'epoca': 3, 'train_loss': 0.2149, 'val_loss': 0.2108, 'val_MAE': 33.1835, 'val_MASE': 0.8355, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 3.9897}
+{'epoca': 4, 'train_loss': 0.2148, 'val_loss': 0.2103, 'val_MAE': 33.0145, 'val_MASE': 0.8331, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 4.9355}
+{'epoca': 5, 'train_loss': 0.2149, 'val_loss': 0.2107, 'val_MAE': 33.1112, 'val_MASE': 0.8358, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 4.4527}
+{'epoca': 6, 'train_loss': 0.2148, 'val_loss': 0.2103, 'val_MAE': 32.9755, 'val_MASE': 0.8338, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 4.6745}
+{'epoca': 7, 'train_loss': 0.2148, 'val_loss': 0.2108, 'val_MAE': 33.1504, 'val_MASE': 0.8358, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 4.456}
+{'epoca': 8, 'train_loss': 0.2148, 'val_loss': 0.2104, 'val_MAE': 33.0385, 'val_MASE': 0.8337, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 4.4365}
+== nlinear L=336 params=8088
+{'epoca': 1, 'train_loss': 0.221, 'val_loss': 0.2055, 'val_MAE': 33.1606, 'val_MASE': 0.833, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.3543}
+{'epoca': 2, 'train_loss': 0.2074, 'val_loss': 0.2035, 'val_MAE': 32.5838, 'val_MASE': 0.822, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.4224}
+{'epoca': 3, 'train_loss': 0.2071, 'val_loss': 0.2037, 'val_MAE': 32.6831, 'val_MASE': 0.8236, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.8351}
+{'epoca': 4, 'train_loss': 0.2071, 'val_loss': 0.2049, 'val_MAE': 32.9176, 'val_MASE': 0.829, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.4512}
+{'epoca': 5, 'train_loss': 0.2071, 'val_loss': 0.2042, 'val_MAE': 32.8243, 'val_MASE': 0.8267, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 5.2371}
+{'epoca': 6, 'train_loss': 0.2071, 'val_loss': 0.2037, 'val_MAE': 32.6305, 'val_MASE': 0.8234, 'mem_gpu_MB': 1192.6875, 't_epoca_s': 4.9636}
+### mlp: mejor L=336, 9 épocas (val MASE 0.7954)
+mlp entreno 177s
+mlp_hist03m entreno 18s
+mlp_hist12m entreno 98s
+mlp_hist30m entreno 218s
+### dlinear: mejor L=336, 3 épocas (val MASE 0.8239)
+dlinear entreno 26s
+dlinear_hist03m entreno 3s
+dlinear_hist12m entreno 13s
+dlinear_hist30m entreno 28s
+### nlinear: mejor L=336, 2 épocas (val MASE 0.8220)
+nlinear entreno 15s
+nlinear_hist03m entreno 1s
+nlinear_hist12m entreno 3s
+nlinear_hist30m entreno 9s

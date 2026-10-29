@@ -1,11 +1,3 @@
-"""Preparación de datos del Lab 9 (Persona A): crudo -> panel horario -> ventanas.
-
-Hallazgos que justifican las decisiones (ver 01_datos.ipynb):
-- Los timestamps del crudo son el FIN del intervalo de 15 min (primer registro 00:15).
-  Por eso la hora H:00 agrega los registros (H:00, H+1:00] -> resample(closed="right").
-- Cambio de horario: en marzo la franja 01:00-02:00 es ~0 para todos los clientes y en
-  octubre esa franja trae el doble (dos horas acumuladas).
-"""
 from __future__ import annotations
 
 import json
@@ -142,11 +134,12 @@ class WindowDataset(Dataset):
         self.cal = torch.tensor(calendar_features(self.ds).to_numpy(dtype=np.float32))  # (T, F)
 
         lo, hi = {"train": (train_start or C.PERIOD_START, C.TRAIN_END),
+                  "trainval": (train_start or C.PERIOD_START, C.VAL_END),   # entrenamiento final (datos hasta 2014-09-30)
                   "val": (C.VAL_START, C.VAL_END),
                   "test": (C.TEST_START, C.TEST_END)}[split]
         t_lo, t_hi = self.ds.get_loc(lo), self.ds.get_loc(hi)
         # s = índice del primer paso del objetivo; el input ocupa [s-L, s)
-        first = t_lo + L if split == "train" else t_lo   # train: el input también debe caer en [train_start, TRAIN_END]
+        first = t_lo + L if split in ("train", "trainval") else t_lo   # train: el input también debe caer en [train_start, TRAIN_END]
         starts = np.arange(first, t_hi - H + 2, stride)
         self.starts = starts
         self.n_series = len(self.series)

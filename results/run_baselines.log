@@ -1,3 +1,13 @@
 naive: 4s
 snaive_24h: 3s
 snaive_168h: 3s
+mstl: 1253s
+{'config': 'l2_h31', 'objective': 'l2', 'num_leaves': 31, 'mejor_iter': 2000, 'val_MAE_norm': np.float64(0.19961463779521169), 't_s': 105.1}
+{'config': 'l2_h63', 'objective': 'l2', 'num_leaves': 63, 'mejor_iter': 1750, 'val_MAE_norm': np.float64(0.19835107193585455), 't_s': 154.1}
+{'config': 'l2_h127', 'objective': 'l2', 'num_leaves': 127, 'min_child_samples': 50, 'mejor_iter': 1618, 'val_MAE_norm': np.float64(0.19745252059188095), 't_s': 214.6}
+{'config': 'l1_h63', 'objective': 'l1', 'num_leaves': 63, 'mejor_iter': 2000, 'val_MAE_norm': np.float64(0.19645387929081568), 't_s': 209.8}
+mejor: l1_h63 2000
+lightgbm_global entreno 188s, backtest 15s
+lightgbm_global_hist03m entreno 44s, backtest 19s
+lightgbm_global_hist12m entreno 80s, backtest 16s
+lightgbm_global_hist30m entreno 158s, backtest 19s

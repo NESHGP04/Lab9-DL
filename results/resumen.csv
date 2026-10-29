@@ -1,4 +1,21 @@
-modelo,familia,L_horas,estrategia,covariables,params_totales,params_entrenables,t_entrenamiento_s,t_inferencia_s,hardware,config
-naive,Baseline,1344.0,"local, reajuste por origen",no,0.0,0.0,0.0,0.9,Apple M5,último valor
-snaive_24h,Baseline,1344.0,"local, reajuste por origen",no,0.0,0.0,0.0,0.9,Apple M5,mismo horario del día anterior
-snaive_168h,Baseline,1344.0,"local, reajuste por origen",no,0.0,0.0,0.0,0.9,Apple M5,mismo horario de la semana anterior
+modelo,familia,L_horas,estrategia,covariables,params_totales,params_entrenables,t_entrenamiento_s,t_inferencia_s,hardware,config,t_epoca_s,mem_gpu_MB,meses_historia
+naive,Baseline,1344.0,"local, reajuste por origen",no,0.0,0.0,0.0,0.9,Apple M5,último valor,,,
+snaive_24h,Baseline,1344.0,"local, reajuste por origen",no,0.0,0.0,0.0,0.9,Apple M5,mismo horario del día anterior,,,
+snaive_168h,Baseline,1344.0,"local, reajuste por origen",no,0.0,0.0,0.0,0.9,Apple M5,mismo horario de la semana anterior,,,
+mstl,Baseline,1344.0,"local, reajuste por origen",no,0.0,0.0,0.0,1245.3,Apple M5,"MSTL 24+168, tendencia AutoETS",,,
+mlp,MLP,336.0,multi-salida,sí,533528.0,533528.0,177.2,4.5,Apple M5 (GPU MPS),"L=336, 9 épocas, Adam lr=1e-3, L1",19.7,1231.0,33.0
+dlinear,Lineal,336.0,multi-salida,no,16176.0,16176.0,26.4,2.3,Apple M5 (GPU MPS),"L=336, 3 épocas, Adam lr=1e-3, L1",8.8,1268.0,33.0
+nlinear,Lineal,336.0,multi-salida,no,8088.0,8088.0,15.0,2.1,Apple M5 (GPU MPS),"L=336, 2 épocas, Adam lr=1e-3, L1",7.5,1268.0,33.0
+lightgbm_global,Árboles,1-24 y 168 (rezagos),directa global (h como feature),sí (calendario),126000.0,126000.0,188.5,3.1,Apple M5,"l1_h63, 2000 árboles",,,33.0
+lightgbm_global_hist03m,Árboles,1-24 y 168 (rezagos),directa global (h como feature),sí (calendario),25956.0,25956.0,10.5,1.7,Apple M5,"l1_h63, 412 árboles",,,3.0
+lightgbm_global_hist12m,Árboles,1-24 y 168 (rezagos),directa global (h como feature),sí (calendario),124362.0,124362.0,73.2,3.0,Apple M5,"l1_h63, 1974 árboles",,,12.0
+lightgbm_global_hist30m,Árboles,1-24 y 168 (rezagos),directa global (h como feature),sí (calendario),126000.0,126000.0,75.5,2.5,Apple M5,"l1_h63, 2000 árboles",,,30.0
+mlp_hist03m,MLP,336,multi-salida,sí,533528.0,533528.0,52.8,0.9,Apple M5 (GPU MPS),"L=336, 99 épocas, Adam lr=1e-3, L1",0.5,1066.0,3.0
+mlp_hist12m,MLP,336,multi-salida,sí,533528.0,533528.0,178.9,0.9,Apple M5 (GPU MPS),"L=336, 25 épocas, Adam lr=1e-3, L1",7.2,1106.0,12.0
+mlp_hist30m,MLP,336,multi-salida,sí,533528.0,533528.0,67.4,0.9,Apple M5 (GPU MPS),"L=336, 10 épocas, Adam lr=1e-3, L1",6.7,1154.0,30.0
+dlinear_hist03m,Lineal,336,multi-salida,no,16176.0,16176.0,5.6,0.8,Apple M5 (GPU MPS),"L=336, 33 épocas, Adam lr=1e-3, L1",0.2,1119.0,3.0
+dlinear_hist12m,Lineal,336,multi-salida,no,16176.0,16176.0,7.5,0.9,Apple M5 (GPU MPS),"L=336, 9 épocas, Adam lr=1e-3, L1",0.8,1131.0,12.0
+dlinear_hist30m,Lineal,336,multi-salida,no,16176.0,16176.0,9.2,0.8,Apple M5 (GPU MPS),"L=336, 4 épocas, Adam lr=1e-3, L1",2.3,1153.0,30.0
+nlinear_hist03m,Lineal,336,multi-salida,no,8088.0,8088.0,2.5,0.8,Apple M5 (GPU MPS),"L=336, 22 épocas, Adam lr=1e-3, L1",0.1,1119.0,3.0
+nlinear_hist12m,Lineal,336,multi-salida,no,8088.0,8088.0,3.4,0.7,Apple M5 (GPU MPS),"L=336, 6 épocas, Adam lr=1e-3, L1",0.6,1131.0,12.0
+nlinear_hist30m,Lineal,336,multi-salida,no,8088.0,8088.0,5.4,0.9,Apple M5 (GPU MPS),"L=336, 3 épocas, Adam lr=1e-3, L1",1.8,1153.0,30.0
