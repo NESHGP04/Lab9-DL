@@ -21,3 +21,7 @@ nlinear_hist12m,Lineal,336,multi-salida,no,8088.0,8088.0,3.4,0.7,Apple M5 (GPU M
 nlinear_hist30m,Lineal,336,multi-salida,no,8088.0,8088.0,5.4,0.9,Apple M5 (GPU MPS),"L=336, 3 épocas, Adam lr=1e-3, L1",1.8,1153.0,30.0
 mlp_reentreno,MLP,336,"multi-salida, reentreno mensual",sí,,,205.5,0.3,Apple M5,"L=336, 9 épocas por reentreno, desde cero",,,
 lightgbm_global_reentreno,Árboles,,"directa global, reentreno mensual",sí (calendario),,,94.0,4.5,Apple M5,"l1_h63, 2000 árboles por reentreno (t_entrenamiento_s = último de 3 reentrenos)",,,
+lstm_multi,Recurrente,168,multi-salida,sí,33624.0,33624.0,489.5,1.9,Tesla T4,"L=168, 15 épocas, Adam lr=1e-3, L1, hidden=64",32.6,2128.0,33.0
+gru_multi,Recurrente,168,multi-salida,sí,29336.0,29336.0,505.1,1.9,Tesla T4,"L=168, 15 épocas, Adam lr=1e-3, L1, hidden=64",33.7,1780.0,33.0
+seq2seq_lstm,Recurrente,168,encoder-decoder (calendario en decoder),sí,35905.0,35905.0,586.9,1.9,Tesla T4,"L=168, 15 épocas, Adam lr=1e-3, L1, hidden=64",39.1,2128.0,33.0
+seq2seq_gru,Recurrente,168,encoder-decoder (calendario en decoder),sí,26945.0,26945.0,599.9,1.9,Tesla T4,"L=168, 15 épocas, Adam lr=1e-3, L1, hidden=64",40.0,1780.0,33.0
