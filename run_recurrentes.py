@@ -65,7 +65,21 @@ if __name__ == "__main__":
                   f"val_MASE={row['val_MASE']:.3f}", flush=True)
         sys.exit()
 
-    logs, summ = [], []
+    log_path = C.ROOT / "results" / "iteraciones_B.csv"
+    summary_path = C.ROOT / "results" / "iteraciones_B_resumen.csv"
+
+    # Conserva los modelos anteriores y reemplaza únicamente
+    # los registros de los modelos que se ejecutarán ahora.
+    def cargar_otros(path):
+        if not path.exists():
+            return []
+
+        df = pd.read_csv(path)
+        return df.loc[~df["modelo"].isin(names)].to_dict("records")
+
+    logs = cargar_otros(log_path)
+    summ = cargar_otros(summary_path)
+    
     for name in names:
         # 1) iteración sobre validación
         if T.DEVICE.type == "cuda":

@@ -58,12 +58,76 @@ class Seq2Seq(nn.Module):
         o, _ = self.dec(xf.contiguous(), state)  # (B, H, hidden); contiguous: en inferencia xf viene de un expand()
         return self.out(o).squeeze(-1)
 
+class LSTMAutoregresiva(nn.Module):
+    """Pronostica H horas realimentando sus propias predicciones.
+
+    La LSTM procesa primero las L horas observadas.
+    Para cada hora futura, combina el estado oculto con el
+    calendario conocido y predice un consumo. Esa predicción
+    entra a la LSTM para calcular el siguiente paso.
+
+    No utiliza consumos futuros reales ni teacher forcing.
+    """
+
+    def __init__(
+        self,
+        L: int,
+        H: int = C.H,
+        hidden: int = 64,
+        layers: int = 1,
+        dropout: float = 0.1,
+    ):
+        super().__init__()
+        self.H = H
+
+        self.rnn = nn.LSTM(
+            input_size=1,
+            hidden_size=hidden,
+            num_layers=layers,
+            batch_first=True,
+            dropout=dropout if layers > 1 else 0.0,
+        )
+
+        self.head = nn.Sequential(
+            nn.Linear(hidden + N_CAL, hidden),
+            nn.ReLU(),
+            nn.Dropout(dropout),
+            nn.Linear(hidden, 1),
+        )
+
+    def forward(self, x, xf):
+        # Solo consumo histórico: (B, L, 1).
+        _, state = self.rnn(x.unsqueeze(-1))
+
+        predicciones = []
+
+        for paso in range(self.H):
+            # Última capa del estado oculto: (B, hidden).
+            h = state[0][-1]
+
+            entrada = torch.cat(
+                [h, xf[:, paso, :]],
+                dim=1,
+            )
+
+            pred = self.head(entrada)  # (B, 1)
+            predicciones.append(pred)
+
+            if paso < self.H - 1:
+                # Realimenta la predicción, conservando el estado.
+                _, state = self.rnn(
+                    pred.unsqueeze(-1),
+                    state,
+                )
+
+        return torch.cat(predicciones, dim=1)  # (B, H)
 
 NAMES = {
     "lstm_multi": (RNNMulti, dict(cell="lstm")),
     "gru_multi": (RNNMulti, dict(cell="gru")),
     "seq2seq_lstm": (Seq2Seq, dict(cell="lstm")),
     "seq2seq_gru": (Seq2Seq, dict(cell="gru")),
+    "lstm_ar": (LSTMAutoregresiva, {}),
 }
 
 
