@@ -1,0 +1,2 @@
+modelo,L,params_totales,params_entrenables,mejor_epoca,epocas_corridas,val_MAE,val_MASE,val_loss,t_total_s,t_epoca_s,mem_gpu_MB,bs,fuente
+lstm_ar,168,21825,21825,15,15,36.2426,0.8812,0.2135,8941.128799999999,596.0752533333332,,128,"transcripción de salida original, redondeada"
