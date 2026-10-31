@@ -1,0 +1,41 @@
+clientes locales: ['MT_046', 'MT_051', 'MT_084', 'MT_187', 'MT_250', 'MT_274', 'MT_280', 'MT_318', 'MT_349', 'MT_360']
+lightgbm local MT_046: 5s
+lightgbm local MT_051: 9s
+lightgbm local MT_084: 4s
+lightgbm local MT_187: 4s
+lightgbm local MT_250: 4s
+lightgbm local MT_274: 2s
+lightgbm local MT_280: 6s
+lightgbm local MT_318: 5s
+lightgbm local MT_349: 7s
+lightgbm local MT_360: 4s
+lightgbm: MASE local 0.884 vs global 0.862 | local gana en 4/10 clientes
+dlinear local MT_046: 18s
+dlinear local MT_051: 5s
+dlinear local MT_084: 12s
+dlinear local MT_187: 12s
+dlinear local MT_250: 28s
+dlinear local MT_274: 12s
+dlinear local MT_280: 11s
+dlinear local MT_318: 12s
+dlinear local MT_349: 11s
+dlinear local MT_360: 12s
+dlinear: MASE local 0.970 vs global 0.926 | local gana en 2/10 clientes
+mlp local MT_046: 47s
+mlp local MT_051: 29s
+mlp local MT_084: 26s
+mlp local MT_187: 11s
+mlp local MT_250: 67s
+mlp local MT_274: 20s
+mlp local MT_280: 35s
+mlp local MT_318: 85s
+mlp local MT_349: 43s
+mlp local MT_360: 64s
+mlp: MASE local 1.069 vs global 0.909 | local gana en 0/10 clientes
+     modelo enfoque     MAE    RMSE   WAPE   MASE  n_clientes  t_entrenamiento_total_s  clientes_donde_local_gana
+0  lightgbm   local  15.498  28.880  0.075  0.884          10                   50.385                        4.0
+1  lightgbm  global  15.210  28.339  0.074  0.862          10                      NaN                        NaN
+2   dlinear   local  17.282  31.266  0.084  0.970          10                  131.596                        2.0
+3   dlinear  global  16.459  30.641  0.080  0.926          10                      NaN                        NaN
+4       mlp   local  19.717  34.805  0.095  1.069          10                  427.962                        0.0
+5       mlp  global  16.077  28.419  0.078  0.909          10                      NaN                        NaN
