@@ -16,9 +16,12 @@ Uso:
 """
 from __future__ import annotations
 
+import json
+import os
 import sys
 import time
 
+os.environ.setdefault("TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD", "1")   # NeuralForecast.load usa pickle; torch >= 2.6 lo bloquea
 import numpy as np
 import pandas as pd
 import torch
@@ -32,27 +35,63 @@ MAX_STEPS = 3000
 SERIES_BATCH = 8      # series por lote (en NeuralForecast batch_size = nº de SERIES, no de ventanas); 100 provoca OOM en una T4
 BATCH = 256           # ventanas muestreadas por paso (windows_batch_size)
 CAL = D.CAL_COLS
-NAMES = ["nhits", "tcn", "patchtst", "itransformer", "deepar"]
+CAL_TCN = [c for c in CAL if not c.startswith("month")]   # el TCN se vuelve inestable con month_sin/cos (ver informe)
+CK = C.ROOT / "results" / "nf_ckpt"     # puntos de control (en Colab: dentro de Drive, sobreviven a cortes)
+NAMES =["nhits", "tcn", "patchtst", "itransformer", "deepar"]
 
 
 def hardware() -> str:
+    if "--cpu" in sys.argv:
+        return "CPU (Apple M5)"
     if torch.cuda.is_available():
         return torch.cuda.get_device_name(0)
     return "Apple GPU (MPS)" if torch.backends.mps.is_available() else "CPU"
 
 
-def make_model(name: str, n_series: int, max_steps: int, val_steps: int):
+def _atomic(obj, path) -> None:
+    """Escribe a un temporal y renombra: un corte a mitad de escritura no deja un archivo corrupto."""
+    tmp = str(path) + ".tmp"
+    torch.save(obj, tmp)
+    os.replace(tmp, path)
+
+
+def make_guardador(path, prev_steps: int, t_prev: float, every: int):
+    """Callback de Lightning: cada `every` pasos guarda pesos + pasos hechos + tiempo acumulado."""
+    from pytorch_lightning import Callback
+
+    class Guardar(Callback):
+        def __init__(self):
+            self.t0, self.last = time.time(), -1
+
+        def _save(self, trainer, module):
+            _atomic({"state": {k: v.detach().cpu() for k, v in module.state_dict().items()},
+                     "steps": prev_steps + trainer.global_step, "t_fit": t_prev + time.time() - self.t0}, path)
+            self.last = trainer.global_step
+
+        def on_train_batch_end(self, trainer, module, *args, **kwargs):
+            if trainer.global_step % every == 0 and trainer.global_step != self.last:
+                self._save(trainer, module)
+
+        def on_train_end(self, trainer, module):
+            self._save(trainer, module)
+
+    return Guardar()
+
+
+def make_model(name: str, n_series: int, max_steps: int, val_steps: int, callbacks=None):
     from neuralforecast.losses.pytorch import MAE, MQLoss, DistributionLoss
     from neuralforecast.models import NHITS, TCN, PatchTST, iTransformer, DeepAR
     common = dict(h=C.H, input_size=L, max_steps=max_steps, val_check_steps=val_steps, early_stop_patience_steps=5,
                   scaler_type="standard", random_seed=C.SEED, batch_size=SERIES_BATCH, learning_rate=1e-3)
+    if callbacks:
+        common["callbacks"] = callbacks
     if "--cpu" in sys.argv:       # PatchTST/iTransformer fallan en MPS (Mac); en CUDA (Colab) no hace falta
         common["accelerator"] = "cpu"
     if name == "nhits":
         return NHITS(**common, valid_batch_size=SERIES_BATCH, inference_windows_batch_size=BATCH, loss=MAE(),
                      futr_exog_list=CAL, windows_batch_size=BATCH)
     if name == "tcn":
-        return TCN(**common, valid_batch_size=SERIES_BATCH, loss=MAE(), futr_exog_list=CAL, kernel_size=3, dilations=[1, 2, 4, 8, 16, 32, 64],
+        return TCN(**common, valid_batch_size=SERIES_BATCH, loss=MAE(), futr_exog_list=CAL_TCN, kernel_size=3, dilations=[1, 2, 4, 8, 16, 32, 64],
                    encoder_hidden_size=64, decoder_hidden_size=64)
     if name == "patchtst":
         return PatchTST(**common, valid_batch_size=SERIES_BATCH, inference_windows_batch_size=BATCH, loss=MAE(), encoder_layers=2, n_heads=4, hidden_size=64, linear_hidden_size=128,
@@ -63,7 +102,8 @@ def make_model(name: str, n_series: int, max_steps: int, val_steps: int):
     if name == "deepar":
         # P10 / P50 / P90 con una distribución Student-t; level=[80] -> bandas lo-80 / hi-80 (P10 y P90)
         return DeepAR(**common, valid_batch_size=SERIES_BATCH, inference_windows_batch_size=BATCH,
-                      windows_batch_size=BATCH, loss=DistributionLoss("StudentT", level=[80]), futr_exog_list=CAL,
+                      windows_batch_size=BATCH, loss=DistributionLoss("StudentT", level=[80]), valid_loss=MQLoss(level=[80]),
+                      futr_exog_list=CAL,
                       lstm_n_layers=2, lstm_hidden_size=64, trajectory_samples=100)
     raise ValueError(name)
 
@@ -87,19 +127,54 @@ def to_preds(fc: pd.DataFrame, name: str, model_col: str) -> pd.DataFrame:
     return out
 
 
-def run(name: str, df: pd.DataFrame, clients: list[str], max_steps: int, val_steps: int, probe: bool) -> None:
+def fit_reanudable(name: str, df: pd.DataFrame, n_clients: int, max_steps: int, val_steps: int, ck):
+    """Entrena con puntos de control: si la sesión se corta, al volver a correr retoma desde los últimos pesos guardados
+    (los pasos ya hechos se descuentan de max_steps; el estado de Adam y el contador de early stopping sí se reinician).
+    Si el entrenamiento ya terminó, solo recarga el modelo guardado."""
     from neuralforecast import NeuralForecast
-    model = make_model(name, len(clients), max_steps, val_steps)
-    n_par = sum(p.numel() for p in model.parameters())
+    final, meta, est = ck / "modelo_final", ck / "fit.json", ck / "estado.pt"
+    if final.exists() and meta.exists():
+        nf = NeuralForecast.load(str(final))
+        print(f"  {name}: entrenamiento ya terminado, se recarga {final.name}", flush=True)
+        return nf, nf.models[0], json.loads(meta.read_text())["t_fit"]
+    prev, t_prev, state = 0, 0.0, None
+    if est.exists():
+        state = torch.load(est, map_location="cpu")
+        prev, t_prev = state["steps"], state["t_fit"]
+        print(f"  {name}: se retoma desde el paso {prev} de {max_steps}", flush=True)
+    cb = make_guardador(est, prev, t_prev, every=val_steps)
+    model = make_model(name, n_clients, max(max_steps - prev, val_steps), val_steps, [cb])
+    if state:
+        model.load_state_dict(state["state"])
     nf = NeuralForecast(models=[model], freq="h")
-    # 1) entrenamiento ÚNICO con datos hasta 2014-09-30: los últimos 92 días (jul-sep) son validación (early stopping)
     t0 = time.time()
+    # entrenamiento ÚNICO con datos hasta 2014-09-30: los últimos 92 días (jul-sep) son validación (early stopping)
     nf.fit(df=df[df["ds"] <= C.VAL_END], val_size=VAL_DAYS * C.H)
-    t_fit = time.time() - t0
+    t_fit = t_prev + time.time() - t0
+    nf.save(str(final), overwrite=True, save_dataset=False)
+    meta.write_text(json.dumps({"t_fit": t_fit}))
+    return nf, model, t_fit
+
+
+def run(name: str, df: pd.DataFrame, clients: list[str], max_steps: int, val_steps: int, probe: bool) -> None:
+    ck = CK / (f"probe_{name}" if probe else name)
+    ck.mkdir(parents=True, exist_ok=True)
+    nf, model, t_fit = fit_reanudable(name, df, len(clients), max_steps, val_steps, ck)
+    n_par = sum(p.numel() for p in model.parameters())
     # 2) 92 orígenes diarios: solo las L horas anteriores al origen como entrada (nunca el origen ni lo posterior).
     #    Se usa predict por origen (y no cross_validation) porque TCN y DeepAR no admiten step_size > 1.
-    t0, out, model_col = time.time(), [], None
+    #    Cada 5 orígenes se guardan las predicciones hechas; si se corta, se retoma desde el último origen guardado.
+    part, tpart = ck / "pred_parcial.parquet", ck / "t_inf.json"
+    out, k0, t_prev = [], 0, 0.0
+    if part.exists() and tpart.exists():
+        prev_df = pd.read_parquet(part)
+        k0, t_prev = len(prev_df) // (len(clients) * C.H), json.loads(tpart.read_text())["t_inf"]
+        out = [prev_df]
+        print(f"  {name}: inferencia retomada desde el origen {k0 + 1}/92", flush=True)
+    t0, model_col = time.time(), None
     for k, origin in enumerate(C.test_origins()):
+        if k < k0:
+            continue
         hist = df[(df["ds"] >= origin - pd.Timedelta(hours=L)) & (df["ds"] < origin)]
         fut = df[(df["ds"] >= origin) & (df["ds"] < origin + pd.Timedelta(hours=C.H))][["unique_id", "ds"] + CAL]
         fc = nf.predict(df=hist, futr_df=fut if model.futr_exog_list else None)
@@ -109,7 +184,11 @@ def run(name: str, df: pd.DataFrame, clients: list[str], max_steps: int, val_ste
         out.append(to_preds(fc, name, model_col))
         if k % 10 == 0:
             print(f"  origen {k + 1}/92 {origin:%Y-%m-%d}", flush=True)
-    t_inf = time.time() - t0
+        if (k + 1) % 5 == 0:
+            pd.concat(out, ignore_index=True).to_parquet(str(part) + ".tmp", index=False)
+            os.replace(str(part) + ".tmp", part)
+            tpart.write_text(json.dumps({"t_inf": t_prev + time.time() - t0}))
+    t_inf = t_prev + time.time() - t0
     t_total = t_fit + t_inf
     pred = pd.concat(out, ignore_index=True).sort_values(["unique_id", "ds"]).reset_index(drop=True)
     exp = pred.groupby("unique_id").size()
@@ -124,7 +203,7 @@ def run(name: str, df: pd.DataFrame, clients: list[str], max_steps: int, val_ste
     C.log_resumen(name, familia={"nhits": "Transformer/MLP jerárquico", "tcn": "Convolucional", "patchtst": "Transformer",
                                  "itransformer": "Transformer", "deepar": "Probabilístico"}[name],
                   L_horas=L, estrategia="multi-salida" if name != "deepar" else "autorregresivo probabilístico (muestreo)",
-                  covariables="sí (calendario)" if name in ("nhits", "tcn", "deepar") else "no",
+                  covariables=("sí (hora, día de semana, feriado)" if name == "tcn" else "sí (calendario)") if name in ("nhits", "tcn", "deepar") else "no",
                   params_totales=n_par, params_entrenables=n_par, t_entrenamiento_s=round(t_fit, 1),
                   t_inferencia_s=round(t_inf, 1), hardware=hardware(),
                   config=f"NeuralForecast, L={L}, max_steps={max_steps}, early stopping en validación, batch={BATCH}, "

@@ -21,3 +21,6 @@ lightning_logs/
 checkpoints/
 
 PLAN_TAREAS.md
+# puntos de control de NeuralForecast (se regeneran)
+results/nf_ckpt/
+results/semillas_preds/

@@ -7,7 +7,7 @@ import common as C
 
 SUFIJOS_EXCLUIDOS = ("_hist03m", "_hist12m", "_hist30m", "_reentreno")
 HISTORIA_MODELOS = ["snaive_168h", "lightgbm_global", "dlinear", "lstm", "patchtst"]   # figura 3 (los que existan)
-CHRONOS = "chronos_bolt"
+CHRONOS = "chronos_small"
 
 
 def main_models(resumen: pd.DataFrame) -> list[str]:

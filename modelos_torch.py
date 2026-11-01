@@ -2,6 +2,7 @@
 """
 from __future__ import annotations
 
+import os
 import time
 
 import numpy as np
@@ -12,7 +13,7 @@ import torch.nn as nn
 import common as C
 import datos as D
 
-DEVICE = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+DEVICE = torch.device("mps" if torch.backends.mps.is_available() and not os.environ.get("LAB9_CPU") else "cpu")   # LAB9_CPU=1 fuerza CPU (la GPU del Mac falla con poca memoria)
 N_CAL = len(D.CAL_COLS)
 
 
@@ -95,7 +96,7 @@ class Windows:
 
 
 # ------------------------------------------------------------------ entrenamiento
-def evaluate_windows(net, win: Windows, scaler: D.SeriesScaler, mase_scale: pd.Series, bs: int = 16) -> dict:
+def evaluate_windows(net, win: Windows, scaler: D.SeriesScaler, mase_scale: pd.Series, bs: int = 8192) -> dict:
     """Pérdida L1 normalizada, MAE (kWh) y MASE sobre todas las ventanas de `win`."""
     net.eval()
     abs_sum = torch.zeros(win.n_series, device=DEVICE)
@@ -113,7 +114,7 @@ def evaluate_windows(net, win: Windows, scaler: D.SeriesScaler, mase_scale: pd.S
 def fit_torch(net, wn: pd.DataFrame, scaler: D.SeriesScaler, mase_scale: pd.Series, L: int, *,
               split: str = "train", train_start: pd.Timestamp | None = None,
               train_end: pd.Timestamp | None = None, max_epochs: int = 30,
-              fixed_epochs: int | None = None, patience: int = 4, bs: int = 16, lr: float = 1e-3,
+              fixed_epochs: int | None = None, patience: int = 4, bs: int = 1024, lr: float = 1e-3,
               weight_decay: float = 0.0, seed: int = C.SEED, verbose: bool = True) -> dict:
     """Entrena con L1 (la métrica es MAE/MASE). Con split="train" valida en cada época y restaura la mejor
     (early stopping sobre VALIDACIÓN, nunca sobre la prueba). Con split="trainval" entrena `fixed_epochs`

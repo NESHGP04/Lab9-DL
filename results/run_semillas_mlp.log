@@ -1,0 +1,8 @@
+mlp_s42 0.8644
+mlp_s43 0.9272
+mlp_s44 0.8793
+                     MAE            WAPE            MASE        
+                    mean     std    mean     std    mean     std
+modelo                                                          
+lightgbm_global  33.9657  0.0536  0.0630  0.0001  0.8507  0.0008
+mlp              37.5187  1.5916  0.0696  0.0030  0.8903  0.0328

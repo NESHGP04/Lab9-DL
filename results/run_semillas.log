@@ -3,13 +3,13 @@ Error: command buffer exited with error status.
 	Error: 
 	(null)
 	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
-	<AGXG17GFamilyCommandBuffer: 0x79ecdcc000>
+	<AGXG17GFamilyCommandBuffer: 0x7a3d424000>
     label = <none> 
-    device = <AGXG17GDevice: 0x79f4630000>
+    device = <AGXG17GDevice: 0x7a45650000>
         name = Apple M5 
-    commandQueue = <AGXG17GFamilyCommandQueue: 0x105673660>
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
         label = <none> 
-        device = <AGXG17GDevice: 0x79f4630000>
+        device = <AGXG17GDevice: 0x7a45650000>
             name = Apple M5 
     retainedReferences = 1
 Error: command buffer exited with error status.
@@ -17,13 +17,13 @@ Error: command buffer exited with error status.
 	Error: 
 	(null)
 	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
-	<AGXG17GFamilyCommandBuffer: 0x79eb526a00>
+	<AGXG17GFamilyCommandBuffer: 0x7a3c35aa00>
     label = <none> 
-    device = <AGXG17GDevice: 0x79f4630000>
+    device = <AGXG17GDevice: 0x7a45650000>
         name = Apple M5 
-    commandQueue = <AGXG17GFamilyCommandQueue: 0x105673660>
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
         label = <none> 
-        device = <AGXG17GDevice: 0x79f4630000>
+        device = <AGXG17GDevice: 0x7a45650000>
             name = Apple M5 
     retainedReferences = 1
 Error: command buffer exited with error status.
@@ -31,12 +31,4223 @@ Error: command buffer exited with error status.
 	Error: 
 	(null)
 	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
-	<AGXG17GFamilyCommandBuffer: 0x79eb526d80>
+	<AGXG17GFamilyCommandBuffer: 0x7a3c35ad80>
     label = <none> 
-    device = <AGXG17GDevice: 0x79f4630000>
+    device = <AGXG17GDevice: 0x7a45650000>
         name = Apple M5 
-    commandQueue = <AGXG17GFamilyCommandQueue: 0x105673660>
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
         label = <none> 
-        device = <AGXG17GDevice: 0x79f4630000>
+        device = <AGXG17GDevice: 0x7a45650000>
             name = Apple M5 
     retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x7a3c35aa00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x7a3c35ad80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x7a3c35aa00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x7a3c35ad80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x7a3c35aa00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x7a3c35ad80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x7a3c35aa00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x7a3c35bb80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cc000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cc700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cca80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cce00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cd180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cc380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cd500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cd880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cdf80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71ce300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71ce680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cea00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71ced80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cf100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cdc00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cf800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cfb80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x7a3d424000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d4000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d4700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d4a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d4e00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d5180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d5500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d5880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d5c00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d5f80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d6300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d6680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d6a00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d6d80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d7100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d4380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d7800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d7480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71cf480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d8000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d8700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d8a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d8e00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d9180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d9500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d9880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d9c00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d9f80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71da300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71da680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71daa00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71dad80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71db100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71db480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71db800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71dbb80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d7b80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71dc000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71dc700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71dca80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71dce00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71dd180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71dd500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71dd880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71ddc00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71ddf80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71de300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71de680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71dea00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71ded80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71df100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71df480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71df800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71dc380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71d8380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e0000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e0700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e0a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e0e00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e1180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e1500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e1880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e1c00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e0380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e2300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e2680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e2a00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e2d80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e3100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e3480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e3800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e3b80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71dfb80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+mlp_s42 2142629325415738.2
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e1f80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fc000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fc380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fc000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fc380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fc000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fc380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fc000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fc380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fc000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fc380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fc700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fca80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fd180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fd500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fd880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fdc00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fdf80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fe300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fe680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fea00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fed80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71ff100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71ff480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71ff800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71ffb80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71e1f80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e0000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e0700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e0a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e0e00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e1180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e0380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e1880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e1c00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e1f80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e1500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e2680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e2a00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e2300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e2d80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e3100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e3800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e3b80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d71fce00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e4000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e4700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e4a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e4e00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e5180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e5500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e5880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e5c00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e5f80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e6300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e6680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e6a00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e6d80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e7100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e7480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e7800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e7b80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e3480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e8000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e8700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e8a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e8e00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e9180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e9500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e9880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e9c00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e9f80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37ea300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37ea680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37eaa00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37ead80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37eb100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37eb480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37eb800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37ebb80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e4380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f0000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f0700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f0a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f0e00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f1180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f1500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f1880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f1c00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f1f80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f2300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f2680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f2a00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f2d80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f3100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f3480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f3800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f3b80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37e8380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+mlp_s43 143575668026887.88
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f4e00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f5180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f5880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f5c00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f5f80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f6300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f6680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f6a00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f6d80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f7100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f7480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f7800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f7b80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f0380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ec000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ec700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5eca80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ece00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ed180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ed500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ed880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5edc00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ec380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ee300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ee680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5edf80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5eea00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ef100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ef480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ef800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5efb80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78d37f5500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f4000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f4700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f4a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f4e00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f5180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f5500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f5880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f5c00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f5f80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f6300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f6680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f6a00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f6d80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f7100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f7480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f7800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f7b80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5eed80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fc000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fc700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fca80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fce00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fd180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fd500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fd880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fdc00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fdf80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fe300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fe680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fea00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fed80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ff100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ff480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ff800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5ffb80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5f4380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf600000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf600700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf600a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf600e00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf601180>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf601500>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf601880>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf601c00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf601f80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf602300>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf602680>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf600380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf602d80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf603100>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf603480>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf603800>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf603b80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf5fc380>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf604000>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf604700>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf604a80>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+Error: command buffer exited with error status.
+	The Metal Performance Shaders operations encoded on it may not have completed.
+	Error: 
+	(null)
+	Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory)
+	<AGXG17GFamilyCommandBuffer: 0x78cf604e00>
+    label = <none> 
+    device = <AGXG17GDevice: 0x7a45650000>
+        name = Apple M5 
+    commandQueue = <AGXG17GFamilyCommandQueue: 0x105a579f0>
+        label = <none> 
+        device = <AGXG17GDevice: 0x7a45650000>
+            name = Apple M5 
+    retainedReferences = 1
+mlp_s44 107017685.65
+lightgbm_global_s42 0.8499
+lightgbm_global_s43 0.8507
+lightgbm_global_s44 0.8515
+                          MAE                        WAPE                        MASE              
+                         mean           std          mean           std          mean           std
+modelo                                                                                             
+lightgbm_global  3.396570e+01  5.360000e-02  6.300000e-02  1.000000e-04  8.507000e-01  8.000000e-04
+mlp              3.350326e+16  5.265764e+16  6.211542e+13  9.762784e+13  7.620684e+14  1.197754e+15

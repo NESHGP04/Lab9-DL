@@ -1,0 +1,5 @@
+,MAE,MAE,WAPE,WAPE,MASE,MASE
+,mean,std,mean,std,mean,std
+modelo,,,,,,
+lightgbm_global,33.9657,0.0536,0.063,0.0001,0.8507,0.0008
+mlp,37.5187,1.5916,0.0696,0.003,0.8903,0.0328
